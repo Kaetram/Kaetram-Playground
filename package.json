@@ -1,0 +1,25 @@
+{
+  "name": "kaetram-playground",
+  "version": "1.0.0",
+  "description": "A playground repositiory for testing new concepts and sharing knowledge",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "nodejs",
+    "playground"
+  ],
+  "author": "Adam Sawicki",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
